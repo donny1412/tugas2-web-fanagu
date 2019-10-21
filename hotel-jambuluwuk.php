@@ -74,11 +74,7 @@
         	<div class="col-lg-3 sidebar">
         		<div class="sidebar-wrap ftco-animate">
         			<h3 class="heading mb-4">Find City</h3>
-        			<form action="#">
-        				<div class="fields">
-		              <div class="form-group">
-		                <input type="text" class="form-control" placeholder="Destination, City">
-		              </div>
+        			
 		              <div class="form-group">
 		                <div class="select-wrap one-third">
 	                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>

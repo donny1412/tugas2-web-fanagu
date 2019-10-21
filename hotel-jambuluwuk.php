@@ -90,6 +90,7 @@
 	                      <option value="">Malang</option>
 	                    </select>
 	                  </div>
+			</div>
 		          
 	            </form>
         		</div>

@@ -2,13 +2,17 @@
 include 'conn.php';
 $msg=''; 
 
+session_start();
 $sql = 'SELECT * FROM signup';
 
 $query = mysqli_query($conn, $sql);
 
+
+if (isset($_SESSION["status"]) && $_SESSION["status"] =='login') {
+                  header('location:index.php');
+              }
 if (isset($_POST['login'])){
 	// mengaktifkan session php
-session_start();
  
 // menghubungkan dengan koneksi
 include 'conn.php';
@@ -26,7 +30,7 @@ $cek = mysqli_num_rows($data);
 if($cek > 0){
 	$_SESSION['email'] = $email;
 	$_SESSION['status'] = "login";
-	header("location:index.html");
+	header("location:index.php");
 }else{
 	$msg='Gagal Login';
 }
@@ -51,7 +55,6 @@ if($cek > 0){
                     </button>
                 </div><?php }?>
 		<form method="POST" action="login.php">
-			
 			<label>Email</label>
 			<input type="text" name="email" class="form_login" placeholder="Email">
 

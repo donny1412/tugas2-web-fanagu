@@ -175,7 +175,7 @@
 						    						</p>
 					    						</div>
 				    						</div>
-				    						<p>HTM : 20.000/orang/p>
+				    						<p>HTM : 20.000/orang</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
 				    							<span><i class="icon-map-o"></i> Lembang</span>

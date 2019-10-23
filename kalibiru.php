@@ -134,11 +134,11 @@
           			<div class="row">
           				<div class="col-md-4">
 				    				<div class="destination">
-				    					<a href="hotel-single.html" class="img img-2" style="background-image: url(images/destinasi/page1/bromo/bromo.jpg);"></a>
+				    					<a href="#" class="img img-2" style="background-image: url(images/destinasi/page1/bromo/bromo.jpg);"></a>
 				    					<div class="text p-3">
 				    						<div class="d-flex">
 				    							<div class="one">
-						    						<h3><a href="hotel-single.html">Bromo</a></h3>
+						    						<h3><a href="#">Bromo</a></h3>
 						    						<p class="rate">
 						    							<i class="icon-star"></i>
 						    							<i class="icon-star"></i>
@@ -149,22 +149,22 @@
 						    						</p>
 					    						</div>
 				    						</div>
-				    						<p>Rp. Sekian</p>
+				    						<p>HTM : 25.000/orang</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
-				    							<span><i class="icon-map-o"></i> Probolinggo, Jawa Timur</span>
-				    							<span class="ml-auto"><a href="#">Discover</a></span>
+				    							<span><i class="icon-map-o"></i> Malang, Jawa Timur</span>
+				    							<span class="ml-auto"><a href="#">Open Now</a></span>
 				    						</p>
 				    					</div>
 				    				</div>
 				    			</div>
 				    			<div class="col-md-4">
 				    				<div class="destination">
-				    					<a href="hotel-single.html" class="img img-2" style="background-image: url(images/destinasi/page1/floating_market_lembang/floatmarketlembang.jpg);"></a>
+				    					<a href="#" class="img img-2" style="background-image: url(images/destinasi/page1/floating_market_lembang/floatmarketlembang.jpg);"></a>
 				    					<div class="text p-3">
 				    						<div class="d-flex">
 				    							<div class="one">
-						    						<h3><a href="hotel-single.html">Floating Market Lembang</a></h3>
+						    						<h3><a href="#">Floating Market Lembang</a></h3>
                             <p class="rate">
 						    							<i class="icon-star"></i>
 						    							<i class="icon-star"></i>
@@ -175,7 +175,7 @@
 						    						</p>
 					    						</div>
 				    						</div>
-				    						<p>Rp. Sekian</p>
+				    						<p>HTM : 20.000/orang/p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
 				    							<span><i class="icon-map-o"></i> Lembang, Bandungs</span>
@@ -186,11 +186,11 @@
 				    			</div>
 				    			<div class="col-md-4">
 				    				<div class="destination">
-				    					<a href="hotel-single.html" class="img img-2" style="background-image: url(images/destinasi/page1/danau_toba/danautoba.jpg);"></a>
+				    					<a href="#" class="img img-2" style="background-image: url(images/destinasi/page1/danau_toba/danautoba.jpg);"></a>
 				    					<div class="text p-3">
 				    						<div class="d-flex">
 				    							<div class="one">
-						    						<h3><a href="hotel-single.html">Danau Toba</a></h3>
+						    						<h3><a href="#">Danau Toba</a></h3>
 						    						<p class="rate">
 						    							<i class="icon-star"></i>
 						    							<i class="icon-star"></i>
@@ -201,7 +201,7 @@
 						    						</p>
 					    						</div>
 				    						</div>
-				    						<p>Rp. Sekian</p>
+				    						<p>HTM : 10.000/orang</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
 				    							<span><i class="icon-map-o"></i> Simalungun, Sumatera Utara</span>

@@ -11,7 +11,7 @@
 <head>
 	<link href="signuptest.php">
  	<link href="conn.php">
-	<title>Login | Mlaku.id</title>
+	<title>Sign Up | Mlaku.id</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body> 

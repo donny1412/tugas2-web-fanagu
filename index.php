@@ -79,7 +79,7 @@
           <div class="col-md-12 tab-wrap"> 
             <div class="tab-content p-4 px-5" id="v-pills-tabContent"> 
               <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
-                <form action="hoteljogja.html" class="search-destination">
+                <form action="bali.php" class="search-destination">
                   <div class="row"> 
                     <div class="col-md align-items-end">
                       <div class="form-group">
@@ -337,7 +337,7 @@
           </div>
           <div class="col-sm col-md-6 col-lg ftco-animate">
             <div class="destination d-md-flex flex-column-reverse">
-              <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destinasi2.jpg);">
+              <a href="kalibiru.php" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destinasi2.jpg);">
                 <div class="icon d-flex justify-content-center align-items-center">
                   <span class="icon-link"></span>
                 </div>
@@ -345,7 +345,7 @@
               <div class="text p-3">
                 <div class="d-flex">
                   <div class="one">
-                    <h3><a href="#">Kalibiru, Kulonprogo</a></h3>
+                    <h3><a href="kalibiru.php">Kalibiru, Kulonprogo</a></h3>
                     <p class="rate">
                       <i class="icon-star"></i>
                       <i class="icon-star"></i>
@@ -363,7 +363,7 @@
                 <hr>
                 <p class="bottom-area d-flex">
                   <span><i class="icon-map-o"></i> Yogyakarta</span>
-                  <span class="ml-auto"><a href="#">Open Now</a></span>
+                  <span class="ml-auto"><a href="kalibiru.php">Open Now</a></span>
                 </p>
               </div>
             </div>

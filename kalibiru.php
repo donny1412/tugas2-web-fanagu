@@ -39,8 +39,8 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="places.php" class="nav-link">Destinasi Wisata</a></li>
-	          <li class="nav-item active"><a href="hotel.php" class="nav-link">Hotel</a></li>
+	          <li class="nav-item active"><a href="places.php" class="nav-link">Destinasi Wisata</a></li>
+	          <li class="nav-item"><a href="hotel.php" class="nav-link">Hotel</a></li>
             <li class="nav-item"><a href="Tour Guide.php" class="nav-link">Tour Guide</a></li> 
             <?php
               session_start();
@@ -80,15 +80,14 @@
 	                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
 	                    <select name="" id="" class="form-control" placeholder="Keyword search">
 	                      <option value="">Select Location</option>
-	                      <option value="">Bandung</option>
-	                      <option value="">Jakarta</option>
+		              <option value="">Bali</option>
 	                      <option value="">Malang</option>
 	                      <option value="">Yogyakarta</option>
 	                    </select>
 	                  </div>
 		              </div>
 		              <div class="form-group">
-		               <a href="hotel.html"input type="submit" class="btn btn-primary py-3 px-5">Search</a>
+		               <a href="yogyakarta.php"input type="submit" class="btn btn-primary py-3 px-5">Search</a>
 		              </div>
 		            </div>
 	            </form>

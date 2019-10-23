@@ -152,7 +152,7 @@
 				    						<p>HTM : 25.000/orang</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
-				    							<span><i class="icon-map-o"></i> Malang, Jawa Timur</span>
+				    							<span><i class="icon-map-o"></i> Malang</span>
 				    							<span class="ml-auto"><a href="#">Open Now</a></span>
 				    						</p>
 				    					</div>
@@ -178,8 +178,8 @@
 				    						<p>HTM : 20.000/orang/p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
-				    							<span><i class="icon-map-o"></i> Lembang, Bandungs</span>
-				    							<span class="ml-auto"><a href="#">Discover</a></span>
+				    							<span><i class="icon-map-o"></i> Lembang</span>
+				    							<span class="ml-auto"><a href="#">Open Now</a></span>
 				    						</p>
 				    					</div>
 				    				</div>
@@ -204,8 +204,8 @@
 				    						<p>HTM : 10.000/orang</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
-				    							<span><i class="icon-map-o"></i> Simalungun, Sumatera Utara</span>
-				    							<span class="ml-auto"><a href="#">Discover</a></span>
+				    							<span><i class="icon-map-o"></i> Simalungun</span>
+				    							<span class="ml-auto"><a href="#">Open Now</a></span>
 				    						</p>
 				    					</div>
 				    				</div>

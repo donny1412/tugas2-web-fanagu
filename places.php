@@ -31,7 +31,7 @@
 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php">Mlaku.id</a>
+	      <a class="navbar-brand" href="index.html">Mlaku.id</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -41,14 +41,7 @@
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item active"><a href="places.php" class="nav-link">Destinasi Wisata</a></li>
 	          <li class="nav-item"><a href="hotel.php" class="nav-link">Hotel</a></li>
-	          <li class="nav-item"><a href="Tour Guide.php" class="nav-link">Tour Guide</a></li> 
-	          <?php
-              session_start();
-              // Check if the user is already logged in, if yes then redirect him to welcome page
-              if (isset($_SESSION["status"]) && $_SESSION["status"] =='login') {
-                  echo  "<li class='nav-item'><a href='logout.php' class='nav-link'>Log out</a></li>";
-              } else echo  "<li class='nav-item'><a href='login.php' class='nav-link'>Login</a></li>";
-            ?> 
+	          <li class="nav-item"><a href="login.php" class="nav-link">Log Out</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -60,267 +53,373 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-9 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.php">Home</a></span> <span>Places</span></p>
+            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Destinasi</span></p>
             <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Destinasi Wisata</h1>
           </div>
         </div>
       </div>
     </div>
 
-	<section class="ftco-section justify-content-end ftco-search">
-      <div class="container-wrap ml-auto">
-        <div class="row no-gutters">
-          <div class="col-md-12 nav-link-wrap">
-            <div class="nav nav-pills justify-content-center text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Search Destinasi Wisata</a> 
-            </div>
-          </div>
-          <div class="col-md-12 tab-wrap"> 
-            <div class="tab-content p-4 px-5" id="v-pills-tabContent"> 
-              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
-                <form action="bali.php" class="search-destination">
-                  <div class="row"> 
-                    <div class="col-md align-items-end">
-                      <div class="form-group">
-                        <label for="#">Where</label>
-                        <div class="form-field">
-                          <div class="icon"><span class="icon-map-marker"></span></div>
-                          <input type="text" class="form-control" placeholder="Where">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md align-self-end">
-                      <div class="form-group">
-                        <div class="form-field">
-                          <input type="submit" value="Search" class="form-control btn btn-primary">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
- 
     <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <h2 class="mb-4"><strong>Destinasi Wisata</strong></h2>
+            <h2 class="mb-4">TRENDING DESTINATIONS</h2>
           </div>
         </div>
-      </div>
-      <div class="container-fluid">
+
+		<section class="ftco-section">
+      <div class="container">
         <div class="row">
-          <div class="col-sm col-md-6 col-lg ftco-animate">
-            <div class="destination">
-              <a href="tamansari.php" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destinasi1.jpg);">
-                <div class="icon d-flex justify-content-center align-items-center">
-                  <span class="icon-link"></span>
-                </div>
-              </a>
-              <div class="text p-3">
-                <div class="d-flex">
-                  <div class="one">
-                    <h3><a href="tamansari.php">Taman Sari</a></h3>
-                    <p class="rate">
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <i class="icon-star-o"></i>
-                      <span>8 Rating</span>
-                    </p>
-                  </div>
-                  <div class="two">
-                    <span class="price per-price">5.000<br><small>/orang</small></span>
-                  </div>
-                </div>
-                <p>Jaman dulu Taman Sari Jogja merupakan tempat rekreasi dan meditasi keluarga kerajaan Yogyakarta. Pesona Istana Taman Sari terletak pada keindahan arsitekturnya yang kuno dan pemandangan yang indah.</p>
-                <hr>
-                <p class="bottom-area d-flex">
-                  <span><i class="icon-map-o"></i>Yogyakarta</span>
-                  <span class="ml-auto"><a href="tamansari.php">Open Now</a></span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm col-md-6 col-lg ftco-animate">
-            <div class="destination d-md-flex flex-column-reverse">
-              <a href="kalibiru.php" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destinasi2.jpg);">
-                <div class="icon d-flex justify-content-center align-items-center">
-                  <span class="icon-link"></span>
-                </div>
-              </a>
-              <div class="text p-3">
-                <div class="d-flex">
-                  <div class="one">
-                    <h3><a href="kalibiru.php">Kalibiru, Kulonprogo</a></h3>
-                    <p class="rate">
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <i class="icon-star-o"></i>
-                      <span>8 Rating</span>
-                    </p>
-                  </div>
-                  <div class="two">
-                    <span class="price per-price">10.000<br><small>/orang</small></span>
-                  </div>
-                </div>
-                <p>Tempat ini banyak dikunjungi karena pemandangan alamnya yang indah, dengan berbagai spot foto yang unik</p>
-                <hr>
-                <p class="bottom-area d-flex">
-                  <span><i class="icon-map-o"></i> Yogyakarta</span>
-                  <span class="ml-auto"><a href="kalibiru.php">Open Now</a></span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm col-md-6 col-lg ftco-animate">
-            <div class="destination">
-              <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destinasi3.jpg);">
-                <div class="icon d-flex justify-content-center align-items-center">
-                  <span class="icon-link"></span>
-                </div>
-              </a>
-              <div class="text p-3">
-                <div class="d-flex">
-                  <div class="one">
-                    <h3><a href="#">The Lodge Maribaya</a></h3>
-                    <p class="rate">
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <i class="icon-star-o"></i>
-                      <span>8 Rating</span>
-                    </p>
-                  </div>
-                  <div class="two">
-                    <span class="price per-price">35.000<br><small>/orang</small></span>
-                  </div>
-                </div>
-                <p>Di tempat wisata ini Anda bisa menikmati keindahan dan udara yang sejuk, jauh dari pencemaran. Anda juga bisa berfoto selfie di Rumah Pohon dan Mountain Swing (ayunan).</p>
-                <hr>
-                <p class="bottom-area d-flex">
-                  <span><i class="icon-map-o"></i> Bandung</span>
-                  <span class="ml-auto"><a href="#">Open Now</a></span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm col-md-6 col-lg ftco-animate">
-            <div class="destination d-md-flex flex-column-reverse">
-              <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destinasi4.jpg);">
-                <div class="icon d-flex justify-content-center align-items-center">
-                  <span class="icon-link"></span>
-                </div>
-              </a>
-              <div class="text p-3">
-                <div class="d-flex">
-                  <div class="one">
-                    <h3><a href="#">Wakatobi Resort</a></h3>
-                    <p class="rate">
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <i class="icon-star-o"></i>
-                      <span>8 Rating</span>
-                    </p>
-                  </div>
-                  <div class="two">
-                    <span class="price per-price">471.000<br><small>/orang</small></span>
-                  </div>
-                </div>
-                <p>Wakatobi Resort adalah salah satu lokasi terbaik yang juga wajib untuk disambangi, apalagi oleh para penyelam. Terletak di area pantai yang memesona dan asri Pulau Onchmobaa-Tomia yang ada di Kepulauan Wakatobi, terdapat rumah karang yang sangat oke</p>
-                <hr>
-                <p class="bottom-area d-flex">
-                  <span><i class="icon-map-o"></i> Wakatobi</span>
-                  <span class="ml-auto"><a href="#">Open Now</a></span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm col-md-6 col-lg ftco-animate">
-            <div class="destination">
-              <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destinasi5.jpg);">
-                <div class="icon d-flex justify-content-center align-items-center">
-                  <span class="icon-link"></span>
-                </div>
-              </a>
-              <div class="text p-3">
-                <div class="d-flex">
-                  <div class="one">
-                    <h3><a href="#">Labuan Bajo</a></h3>
-                    <p class="rate">
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <i class="icon-star"></i>
-                      <span>10 Rating</span>
-                    </p>
-                  </div>
-                  <div class="two">
-                    <span class="price per-price">100.000<br><small>/orang</small></span>
-                  </div>
-                </div>
-                <p>Tempat wisata di Labuan Bajo Flores menyimpan banyak daya tarik yang mampu menghipnotis siapa saja yang mengunjunginya.</p>
-                <hr>
-                <p class="bottom-area d-flex">
-                  <span><i class="icon-map-o"></i> Flores</span>
-                  <span class="ml-auto"><a href="#">Open Now</a></span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-		<div class="row mt-5">
-		 	<div class="col text-center">
-				<div class="block-27">
+        	<div class="col-lg-3 sidebar order-md-last ftco-animate">
+        		<div class="sidebar-wrap ftco-animate">
+        			<h3 class="heading mb-4">Cari Kota</h3>
+        			<form action="#">
+        				<div class="fields">
+		              <div class="form-group">
+		              </div>
+		              <div class="form-group">
+		                <div class="select-wrap one-third">
+	                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+	                    <select name="" id="" class="form-control" placeholder="Keyword search">
+	                      <option value="">Pilih Lokasi</option>
+	                      <option value="">Bali</option>
+	                      <option value="">Bandung</option>
+	                      <option value="">Malang</option>
+	                      <option value="">Yogyakarta</option>
+	                    </select>
+	                  </div>
+		              </div>
+		              <div class="form-group">
+		                <input type="submit" value="Search" class="btn btn-primary py-3 px-5">
+		              </div>
+		            </div>
+	            </form>
+        		</div>
+        		<div class="sidebar-wrap ftco-animate">
+        			<h3 class="heading mb-4">Star Rating</h3>
+        			<form method="post" class="star-rating">
+							  <div class="form-check">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									<label class="form-check-label" for="exampleCheck1">
+										<p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></p>
+									</label>
+							  </div>
+							  <div class="form-check">
+						      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+						      <label class="form-check-label" for="exampleCheck1">
+						    	   <p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i></span></p>
+						      </label>
+							  </div>
+							  <div class="form-check">
+						      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+						      <label class="form-check-label" for="exampleCheck1">
+						      	<p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
+						     </label>
+							  </div>
+							  <div class="form-check">
+							    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+						      <label class="form-check-label" for="exampleCheck1">
+						      	<p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
+						      </label>
+							  </div>
+							  <div class="form-check">
+						      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+						      <label class="form-check-label" for="exampleCheck1">
+						      	<p class="rate"><span><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
+							    </label>
+							  </div>
+							</form>
+        		</div>
+          </div><!-- END-->
+          <div class="col-lg-9">
+          	<div class="row">
+          		<div class="col-sm col-md-6 col-lg-4 ftco-animate">
+		    				<div class="destination">
+		    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destinasi/page1/kali_biru/kalibiru.jpg);">
+		    						<div class="icon d-flex justify-content-center align-items-center">
+		    							<span class="icon-link"></span>
+		    						</div>
+		    					</a>
+		    					<div class="text p-3">
+		    						<div class="d-flex">
+		    							<div class="one">
+				    						<h3>Kali Biru</h3>
+				    						<p class="rate">
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<span>10 Rating</span>
+				    						</p>
+			    						</div>
+		    						</div>
+
+		    						<p>Info tentang Kalibiru...</p>
+		    						<p class="days"><span>2 days 3 nights</span></p>
+		    						<hr>
+		    						<p class="bottom-area d-flex">
+		    							<span><i class="icon-map-o"></i> Kulonprogo, Yogyakarta</span>
+		    							<span class="ml-auto"><a href="places-kali_biru.php">Discover</a></span>
+		    						</p>
+		    					</div>
+		    				</div>
+		    			</div>
+		    			<div class="col-sm col-md-6 col-lg-4 ftco-animate">
+		    				<div class="destination">
+		    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destinasi/page1/pantai_timang/timang.jpg);">
+		    						<div class="icon d-flex justify-content-center align-items-center">
+		    							<span class="icon-link"></span>
+		    						</div>
+		    					</a>
+		    					<div class="text p-3">
+		    						<div class="d-flex">
+		    							<div class="one">
+				    						<h3>Pantai Timang</h3>
+				    						<p class="rate">
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<span>10 Rating</span>
+				    						</p>
+			    						</div>
+
+		    						</div>
+		    						<p>Info Pantai Timang...</p>
+		    						<p class="days"><span>2 days 3 nights</span></p>
+		    						<hr>
+		    						<p class="bottom-area d-flex">
+		    							<span><i class="icon-map-o"></i> Gunung Kidul, Yogyakarta</span>
+		    							<span class="ml-auto"><a href="#">Discover</a></span>
+		    						</p>
+		    					</div>
+		    				</div>
+		    			</div>
+		    			<div class="col-sm col-md-6 col-lg-4 ftco-animate">
+		    				<div class="destination">
+		    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destinasi/page1/bromo/bromo.jpg);">
+		    						<div class="icon d-flex justify-content-center align-items-center">
+		    							<span class="icon-link"></span>
+		    						</div>
+		    					</a>
+		    					<div class="text p-3">
+		    						<div class="d-flex">
+		    							<div class="one">
+				    						<h3>Bromo</h3>
+				    						<p class="rate">
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<span>10 Rating</span>
+				    						</p>
+			    						</div>
+
+		    						</div>
+		    						<p>Info tentang Bromo...</p>
+		    						<p class="days"><span>2 days 3 nights</span></p>
+		    						<hr>
+		    						<p class="bottom-area d-flex">
+		    							<span><i class="icon-map-o"></i> ... , Malang</span>
+		    							<span class="ml-auto"><a href="#">Discover</a></span>
+		    						</p>
+		    					</div>
+		    				</div>
+		    			</div>
+              <div class="col-sm col-md-6 col-lg-4 ftco-animate">
+		    				<div class="destination">
+		    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destinasi/page1/beras_basah/berasbasah.jpg);">
+		    						<div class="icon d-flex justify-content-center align-items-center">
+		    							<span class="icon-link"></span>
+		    						</div>
+		    					</a>
+		    					<div class="text p-3">
+		    						<div class="d-flex">
+		    							<div class="one">
+				    						<h3><a href="#">Beras Basah</a></h3>
+				    						<p class="rate">
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<span>10 Rating</span>
+				    						</p>
+			    						</div>
+
+		    						</div>
+		    						<p>Info</p>
+		    						<p class="days"><span>2 days 3 nights</span></p>
+		    						<hr>
+		    						<p class="bottom-area d-flex">
+		    							<span><i class="icon-map-o"></i> Bontang</span>
+		    							<span class="ml-auto"><a href="#">Discover</a></span>
+		    						</p>
+		    					</div>
+		    				</div>
+		    			</div>
+
+		    			<div class="col-sm col-md-6 col-lg-4 ftco-animate">
+		    				<div class="destination">
+		    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destinasi/page1/floating_market_lembang/floatmarketlembang.jpg);">
+		    						<div class="icon d-flex justify-content-center align-items-center">
+		    							<span class="icon-link"></span>
+		    						</div>
+		    					</a>
+		    					<div class="text p-3">
+		    						<div class="d-flex">
+		    							<div class="one">
+				    						<h3><a href="#">Floating Market Lembang</a></h3>
+				    						<p class="rate">
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<span>10 Rating</span>
+				    						</p>
+			    						</div>
+
+		    						</div>
+		    						<p>Info</p>
+		    						<p class="days"><span>2 days 3 nights</span></p>
+		    						<hr>
+		    						<p class="bottom-area d-flex">
+		    							<span><i class="icon-map-o"></i> Lembang. Bandung</span>
+		    							<span class="ml-auto"><a href="#">Discover</a></span>
+		    						</p>
+		    					</div>
+		    				</div>
+		    			</div>
+		    			<div class="col-sm col-md-6 col-lg-4 ftco-animate">
+		    				<div class="destination">
+		    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destinasi/page1/danau_toba/danautoba.jpg);">
+		    						<div class="icon d-flex justify-content-center align-items-center">
+		    							<span class="icon-link"></span>
+		    						</div>
+		    					</a>
+		    					<div class="text p-3">
+		    						<div class="d-flex">
+		    							<div class="one">
+				    						<h3> Danau Toba</h3>
+				    						<p class="rate">
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<i class="icon-star"></i>
+				    							<span>10 Rating</span>
+				    						</p>
+			    						</div>
+
+		    						</div>
+		    						<p>info</p>
+		    						<p class="days"><span>2 days 3 nights</span></p>
+		    						<hr>
+		    						<p class="bottom-area d-flex">
+		    							<span><i class="icon-map-o"></i> Simalungun, Sumatera Utara</span>
+		    							<span class="ml-auto"><a href="#">Discover</a></span>
+		    						</p>
+		    					</div>
+		    				</div>
+		    			</div>
+          	</div>
+          	<div class="row mt-5">
+		          <div class="col text-center">
+		            <div class="block-27">
 		              <ul>
-		                <li><a href="places5.php">&lt;</a></li>
+		                <li><a href="places.php">&lt;</a></li>
 		                <li class="active"><span>1</span></li>
 		                <li><a href="places2.php">2</a></li>
 		                <li><a href="places3.php">3</a></li>
-		                <li><a href="places4.php">4</a></li>
-		                <li><a href="places5.php">5</a></li>
-		                <li><a href="places.php">&gt;</a></li>
+		                <li><a href="#">4</a></li>
+		                <li><a href="#">5</a></li>
+		                <li><a href="places2.html">&gt;</a></li>
 		              </ul>
 		            </div>
 		          </div>
-		        </div>  
+		        </div>
+          </div> <!-- .col-md-8 -->
+        </div>
+      </div>
+    </section> <!-- .section -->
+
+		<section class="ftco-section-parallax">
+      <div class="parallax-img d-flex align-items-center">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+              <h2>Subcribe to our Newsletter</h2>
+              <p>Info</p>
+              <div class="row d-flex justify-content-center mt-5">
+                <div class="col-md-8">
+                  <form action="#" class="subscribe-form">
+                    <div class="form-group d-flex">
+                      <input type="text" class="form-control" placeholder="Enter email address">
+                      <input type="submit" value="Subscribe" class="submit px-3">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
- 
+
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Mlaku.id</h2>
-              <p>Memudahkan Liburan Anda</p>
+              <p>Memudahkan perjalanan Anda</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
-          </div> 
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Information</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">About Us</a></li>
+                <li><a href="#" class="py-2 d-block">Online enquiry</a></li>
+                <li><a href="#" class="py-2 d-block">Call Us</a></li>
+                <li><a href="#" class="py-2 d-block">General enquiries</a></li>
+                <li><a href="#" class="py-2 d-block">Booking Conditions</a></li>
+                <li><a href="#" class="py-2 d-block">Privacy and Policy</a></li>
+                <li><a href="#" class="py-2 d-block">Refund policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Experience</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Beach</a></li>
+                <li><a href="#" class="py-2 d-block">Adventure</a></li>
+                <li><a href="#" class="py-2 d-block">Wildlife</a></li>
+                <li><a href="#" class="py-2 d-block">Honeymoon</a></li>
+                <li><a href="#" class="py-2 d-block">Nature</a></li>
+                <li><a href="#" class="py-2 d-block">Party</a></li>
+              </ul>
+            </div>
+          </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">Surabaya, Indonesia </span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">0355 332750</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">mlaku@gmail.com</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Surabaya, Indonesia</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">392 3929 210</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">mlaku.id@gmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>

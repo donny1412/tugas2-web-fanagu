@@ -338,7 +338,7 @@
 		                <li><a href="places3.php">3</a></li>
 		                <li><a href="#">4</a></li>
 		                <li><a href="#">5</a></li>
-		                <li><a href="places2.html">&gt;</a></li>
+		                <li><a href="places2.php">&gt;</a></li>
 		              </ul>
 		            </div>
 		          </div>

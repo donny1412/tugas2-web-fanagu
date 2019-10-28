@@ -39,7 +39,7 @@
 
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="places.php" class="nav-link">Destinasi Wisata</a></li>
             <li class="nav-item"><a href="hotel.php" class="nav-link">Hotel</a></li>
             <li class="nav-item"><a href="Tour Guide.php" class="nav-link">Tour Guide</a></li> 

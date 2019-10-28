@@ -27,7 +27,7 @@ $hass=hash('sha256',$password);
 $data = mysqli_query($conn,"SELECT email,password FROM signup WHERE email='$email' and password='$hass'");
 
 $nama = mysqli_query($conn,"SELECT username FROM signup WHERE email='$email' and password='$hass'");
-mysql_fetch_assoc($nama);
+ 
  
 // menghitung jumlah data yang ditemukan
 $cek = mysqli_num_rows($data);
@@ -35,7 +35,7 @@ $cek = mysqli_num_rows($data);
 if($cek > 0){
 	session_start();
 	$_SESSION['email'] = $email;
-	$_SESSION['username']= $name['username'];
+	 
 	$_SESSION['status'] = "login";
 	header("location:index.php");
 }else{

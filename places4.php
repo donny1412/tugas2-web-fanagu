@@ -274,12 +274,12 @@
 		          <div class="col text-center">
 		            <div class="block-27">
 		              <ul>
-                    <li><a href="places5.php">&lt;</a></li>
+                    <li><a href="MT-places.php">&lt;</a></li>
                     <li><a href="places.php">1</a></li>
                     <li><a href="places2.php">2</a></li>
                     <li><a href="places3.php">3</a></li>
                     <li class="active"><span>4</span></li>
-                    <li><a href="places5.php">5</a></li>
+                    <li><a href="MT-places.php">5</a></li>
                     <li><a href="places.php">&gt;</a></li>
 		              </ul>
 		            </div>
@@ -288,30 +288,7 @@
           </div> <!-- .col-md-8 -->
         </div>
       </div>
-    </section> <!-- .section -->
-
-		<section class="ftco-section-parallax">
-      <div class="parallax-img d-flex align-items-center">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-              <h2>Subcribe to our Newsletter</h2>
-              <p>Info</p>
-              <div class="row d-flex justify-content-center mt-5">
-                <div class="col-md-8">
-                  <form action="#" class="subscribe-form">
-                    <div class="form-group d-flex">
-                      <input type="text" class="form-control" placeholder="Enter email address">
-                      <input type="submit" value="Subscribe" class="submit px-3">
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </section> <!-- .section --> 
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
@@ -326,34 +303,7 @@
                 <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Information</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">About Us</a></li>
-                <li><a href="#" class="py-2 d-block">Online enquiry</a></li>
-                <li><a href="#" class="py-2 d-block">Call Us</a></li>
-                <li><a href="#" class="py-2 d-block">General enquiries</a></li>
-                <li><a href="#" class="py-2 d-block">Booking Conditions</a></li>
-                <li><a href="#" class="py-2 d-block">Privacy and Policy</a></li>
-                <li><a href="#" class="py-2 d-block">Refund policy</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Experience</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Beach</a></li>
-                <li><a href="#" class="py-2 d-block">Adventure</a></li>
-                <li><a href="#" class="py-2 d-block">Wildlife</a></li>
-                <li><a href="#" class="py-2 d-block">Honeymoon</a></li>
-                <li><a href="#" class="py-2 d-block">Nature</a></li>
-                <li><a href="#" class="py-2 d-block">Party</a></li>
-              </ul>
-            </div>
-          </div>
+          </div> 
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Have a Questions?</h2>

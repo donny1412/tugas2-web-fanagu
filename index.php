@@ -330,7 +330,7 @@
                 <hr>
                 <p class="bottom-area d-flex">
                   <span><i class="icon-map-o"></i> Yogyakarta</span>
-                  <span class="ml-auto"><a href="tamansari.html">Open Now</a></span>
+                  <span class="ml-auto"><a href="tamansari.php">Open Now</a></span>
                 </p>
               </div>
             </div>

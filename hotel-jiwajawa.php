@@ -92,21 +92,21 @@
           		<div class="col-md-12 ftco-animate">
           			<div class="single-slider owl-carousel">
           				<div class="item">
-          					<div class="hotel-img" style="background-image: url(images/hotel/jiwa_jawa/jiwajawa1.jpg);"></div>
+          					<div class="hotel-img" style="background-image: url(images/hotel/tani_jiwo/tanijiwo.jpg);"></div>
           				</div>
           				<div class="item">
-          					<div class="hotel-img" style="background-image: url(images/hotel/jiwa_jawa/jiwajawa3.jpg);"></div>
+          					<div class="hotel-img" style="background-image: url(images/hotel/tani_jiwo/tanijiwo2.jpg);"></div>
           				</div>
           				<div class="item">
-          					<div class="hotel-img" style="background-image: url(images/hotel/jiwa_jawa/jiwajawa4.jpg);"></div>
+          					<div class="hotel-img" style="background-image: url(images/hotel/tani_jiwo/tanijiwo3.jpg);"></div>
           				</div>
           			</div>
           		</div>
           		<div class="col-md-12 hotel-single mt-4 mb-5 ftco-animate">
           			<span>Our Best hotels &amp; Rooms</span>
-          			<h2>Jiwa Jawa Resort Bromo</h2>
+          			<h2>Tani Jiwo Hostel</h2>
           			<p class="rate mb-3">
-          				<span class="loc"><a href="#"><i class="icon-map"></i> Jl. Raya Bromo, Wonotoro, Sukapura, Probolinggo, Jawa Timur 67254</a></span></p>
+          				<span class="loc"><a href="#"><i class="icon-map"></i> Jl. Raya Dieng No.31, Simpangan, Dieng Kulon, Batur, Banjarnegara, Jawa Tengah 53456</a></span></p>
                   <p>
           				<span class="star">
     							<i class="icon-star"></i>
@@ -137,7 +137,7 @@
           			<h4 class="mb-4">Take A Tour</h4>
           			<div class="block-16">
 		              <figure>
-		                <img src="images/hotel/jiwa_jawa/jiwajawa6.jpg" alt="Image placeholder" class="img-fluid">
+		                <img src="images/hotel/tani_jiwo/tanijiwo.jpg" alt="Image placeholder" class="img-fluid">
 		                <a href="https://vimeo.com/45830194" class="play-button popup-vimeo"><span class="icon-play"></span></a>
 		              </figure>
 		            </div>
@@ -147,14 +147,14 @@
           			<div class="row">
           				<div class="col-md-4">
 				    				<div class="destination">
-				    					<a href="hotel-tanijiwo.html" class="img img-2" style="background-image: url(images/hotel/jiwa_jawa/jiwajawa2.jpg);"></a>
+				    					<a href="hotel-tanijiwo.html" class="img img-2" style="background-image: url(images/hotel/tani_jiwo/tanijiwo2.jpg);"></a>
 				    					<div class="text p-3 ">
 				    						<div class="d-flex">
 				    							<div class="one">
-						    						<h3>Deluxe</h3>
+						    						<h3>Twin Bed</h3>
                           </div>
 					    						<p><div class="two">
-					    							<span class="price per-price">IDR 1.820.000<br><small>/night</small></span>
+					    							<span class="price per-price">IDR 300.000<br><small>/night</small></span>
 				    							</div>
 				    						 </div>
 
@@ -168,20 +168,40 @@
 				    			</div>
 				    			<div class="col-md-4">
 				    				<div class="destination">
-				    					<a href="hotel-single.html" class="img img-2" style="background-image: url(images/hotel/jiwa_jawa/jiwajawa5.jpg);"></a>
+				    					<a href="hotel-single.html" class="img img-2" style="background-image: url(images/hotel/tani_jiwo/tanijiwo3.jpg);"></a>
 				    					<div class="text p-3">
 				    						<div class="d-flex">
 				    							<div class="one">
-						    						<h3>Executive</h3>
+						    						<h3>Bunk Bed</h3>
 					    						</div>
 					    						<div class="two">
-					    							<span class="price per-price">IDR 2.450.000<br><small>/night</small></span>
+					    							<span class="price per-price">IDR 150.000<br><small>/night</small></span>
 				    							</div>
 				    						</div>
 				    						<p>Info</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
 				    							<span class="ml-auto"><a href="Book-Bunk.html">Book Now</a></span>
+				    						</p>
+				    					</div>
+				    				</div>
+				    			</div>
+				    			<div class="col-md-4">
+				    				<div class="destination">
+				    					<a href="hotel-single.html" class="img img-2" style="background-image: url(images/hotel/tani_jiwo/tanijiwo4.jpg);"></a>
+				    					<div class="text p-3">
+				    						<div class="d-flex">
+				    							<div class="one">
+						    						<h3><a href="hotel-single.html">Double Bed</a></h3>
+					    						</div>
+					    						<div class="two">
+					    							<span class="price per-price">IDR 400.000<br><small>/night</small></span>
+				    							</div>
+				    						</div>
+				    						<p>Infos</p>
+				    						<hr>
+				    						<p class="bottom-area d-flex">
+				    							<span class="ml-auto"><a href="Book2.html">Book Now</a></span>
 				    						</p>
 				    					</div>
 				    				</div>
@@ -195,7 +215,7 @@
           			<div class="row">
           				<div class="col-md-4">
 				    				<div class="destination">
-				    					<a href="hotel-single.html" class="img img-2" style="background-image: url(images/hotel/jiwa_jawa/jiwajawa.jpg);"></a>
+				    					<a href="hotel-jiwajawa.php" class="img img-2" style="background-image: url(images/hotel/jiwa_jawa/jiwajawa.jpg);"></a>
 				    					<div class="text p-3">
 				    						<div class="d-flex">
 				    							<div class="one">
@@ -214,7 +234,7 @@
 				    						<hr>
 				    						<p class="bottom-area d-flex">
 				    							<span><i class="icon-map-o"></i> Probolinggo, Jawa Timur</span>
-				    							<span class="ml-auto"><a href="#">Book</a></span>
+				    							<span class="ml-auto"><a href="hotel-jiwajawa.php">Book</a></span>
 				    						</p>
 				    					</div>
 				    				</div>

@@ -66,6 +66,44 @@
         </div>
       </div>
     </div>
+	  
+   <section class="ftco-section justify-content-end ftco-search">
+      <div class="container-wrap ml-auto">
+        <div class="row no-gutters">
+          <div class="col-md-12 nav-link-wrap">
+            <div class="nav nav-pills justify-content-center text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Search Hotel</a> 
+            </div>
+          </div>
+          <div class="col-md-12 tab-wrap"> 
+            <div class="tab-content p-4 px-5" id="v-pills-tabContent"> 
+              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
+                <form action="yogyakarta.php" class="search-destination">
+                  <div class="row"> 
+                    <div class="col-md align-items-end">
+                      <div class="form-group">
+                        <label for="#">Where</label>
+                        <div class="form-field">
+                          <div class="icon"><span class="icon-map-marker"></span></div>
+                          <input type="text" class="form-control" placeholder="Where">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md align-self-end">
+                      <div class="form-group">
+                        <div class="form-field">
+                          <input type="submit" value="Search" class="form-control btn btn-primary">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>	  
 
     <section class="ftco-section">
       <div class="container">

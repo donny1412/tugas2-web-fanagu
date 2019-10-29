@@ -78,7 +78,7 @@
           <div class="col-md-12 tab-wrap"> 
             <div class="tab-content p-4 px-5" id="v-pills-tabContent"> 
               <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
-                <form action="hoteljogja.html" class="search-destination">
+                <form action="hoteljogja.php" class="search-destination">
                   <div class="row"> 
                     <div class="col-md align-items-end">
                       <div class="form-group">

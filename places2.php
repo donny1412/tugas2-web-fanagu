@@ -31,7 +31,7 @@
 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Mlaku.id</a>
+	      <a class="navbar-brand" href="index.php">Mlaku.id</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -41,7 +41,14 @@
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item active"><a href="places.php" class="nav-link">Destinasi Wisata</a></li>
 	          <li class="nav-item"><a href="hotel.php" class="nav-link">Hotel</a></li>
-	          <li class="nav-item"><a href="login.php" class="nav-link">Log Out</a></li>
+	          <li class="nav-item"><a href="Tour Guide.php" class="nav-link">Tour Guide</a></li> 
+            <?php
+              session_start();
+              // Check if the user is already logged in, if yes then redirect him to welcome page
+              if (isset($_SESSION["status"]) && $_SESSION["status"] =='login') {
+                  echo  "<li class='nav-item'><a href='logout.php' class='nav-link'>Log out</a></li>";
+              } else echo  "<li class='nav-item'><a href='login.php' class='nav-link'>Login</a></li>";
+            ?> 
 	        </ul>
 	      </div>
 	    </div>
@@ -274,13 +281,13 @@
 		          <div class="col text-center">
 		            <div class="block-27">
 		              <ul>
-                    <li><a href="places.php">&lt;</a></li>
+                    <li><a href="MT-places.php">&lt;</a></li>
                     <li><a href="places.php">1</a></li>
                     <li class="active"><span>2</span></li>
                     <li><a href="places3.php">3</a></li>
                     <li><a href="places4.php">4</a></li>
                     <li><a href="MT-places.php">5</a></li>
-                    <li><a href="places3.php">&gt;</a></li>
+                    <li><a href="places.php">&gt;</a></li>
 		              </ul>
 		            </div>
 		          </div>
@@ -326,34 +333,7 @@
                 <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Information</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">About Us</a></li>
-                <li><a href="#" class="py-2 d-block">Online enquiry</a></li>
-                <li><a href="#" class="py-2 d-block">Call Us</a></li>
-                <li><a href="#" class="py-2 d-block">General enquiries</a></li>
-                <li><a href="#" class="py-2 d-block">Booking Conditions</a></li>
-                <li><a href="#" class="py-2 d-block">Privacy and Policy</a></li>
-                <li><a href="#" class="py-2 d-block">Refund policy</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Experience</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Beach</a></li>
-                <li><a href="#" class="py-2 d-block">Adventure</a></li>
-                <li><a href="#" class="py-2 d-block">Wildlife</a></li>
-                <li><a href="#" class="py-2 d-block">Honeymoon</a></li>
-                <li><a href="#" class="py-2 d-block">Nature</a></li>
-                <li><a href="#" class="py-2 d-block">Party</a></li>
-              </ul>
-            </div>
-          </div>
+          </div> 
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Have a Questions?</h2>

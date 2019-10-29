@@ -78,7 +78,7 @@
           <div class="col-md-12 tab-wrap"> 
             <div class="tab-content p-4 px-5" id="v-pills-tabContent"> 
               <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
-                <form action="#" class="search-destination">
+                <form action="hoteljogja.php" class="search-destination">
                   <div class="row"> 
                     <div class="col-md align-items-end">
                       <div class="form-group">
@@ -124,7 +124,7 @@
                   <div class="text p-3">
                     <div class="d-flex">
                       <div class="one">
-                        <h3><a href="hotel-Jambuluwuk.html">Jambuluwuk Hotel</a></h3>
+                        <h3><a href="hotel-Jambuluwuk.php">Jambuluwuk Hotel</a></h3>
                         <p class="rate">
                           <i class="icon-star"></i>
                           <i class="icon-star"></i>

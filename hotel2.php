@@ -48,7 +48,7 @@
               if (isset($_SESSION["status"]) && $_SESSION["status"] =='login') {
                   echo  "<li class='nav-item'><a href='logout.php' class='nav-link'>Log out</a></li>";
               } else echo  "<li class='nav-item'><a href='login.php' class='nav-link'>Login</a></li>";
-            ?> 
+            ?>
 	        </ul>
 	      </div>
 	    </div>
@@ -72,14 +72,14 @@
         <div class="row no-gutters">
           <div class="col-md-12 nav-link-wrap">
             <div class="nav nav-pills justify-content-center text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Search Hotel</a> 
+              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Search Hotel</a>
             </div>
           </div>
-          <div class="col-md-12 tab-wrap"> 
-            <div class="tab-content p-4 px-5" id="v-pills-tabContent"> 
+          <div class="col-md-12 tab-wrap">
+            <div class="tab-content p-4 px-5" id="v-pills-tabContent">
               <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
                 <form action="hoteljogja.php" class="search-destination">
-                  <div class="row"> 
+                  <div class="row">
                     <div class="col-md align-items-end">
                       <div class="form-group">
                         <label for="#">Where</label>
@@ -156,7 +156,7 @@
                   <div class="text p-3">
                     <div class="d-flex">
                       <div class="one">
-                        <h3><a href="#">Artotel Hotel</a></h3>
+                        <h3><a href="MT-hotel.php">Artotel Hotel</a></h3>
                         <p class="rate">
                           <i class="icon-star"></i>
                           <i class="icon-star"></i>
@@ -172,7 +172,7 @@
                     <hr>
                     <p class="bottom-area d-flex">
                       <span><i class="icon-map-o"></i> Mlati, Yogyakarta</span>
-                      <span class="ml-auto"><a href="#">Book</a></span>
+                      <span class="ml-auto"><a href="MT-hotel.php">Book</a></span>
                     </p>
                   </div>
                 </div>
@@ -188,7 +188,7 @@
                   <div class="text p-3">
                     <div class="d-flex">
                       <div class="one">
-                        <h3><a href="#">Adhisthana Hotel</a></h3>
+                        <h3><a href="MT-hotel.php">Adhisthana Hotel</a></h3>
                         <p class="rate">
                           <i class="icon-star"></i>
                           <i class="icon-star"></i>
@@ -204,7 +204,7 @@
                     <hr>
                     <p class="bottom-area d-flex">
                       <span><i class="icon-map-o"></i> Mergangsan, Yogyakarta</span>
-                      <span class="ml-auto"><a href="#">Book</a></span>
+                      <span class="ml-auto"><a href="MT-hotel.php">Book</a></span>
                     </p>
                   </div>
                 </div>
@@ -212,7 +212,7 @@
 
               <div class="col-sm col-md-6 col-lg-4 ftco-animate">
                 <div class="destination">
-                  <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel/intercontinental/intercontinental.jpg);">
+                  <a href="MT-hotel.php" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel/intercontinental/intercontinental.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                       <span class="icon-link"></span>
                     </div>
@@ -236,7 +236,7 @@
                     <hr>
                     <p class="bottom-area d-flex">
                       <span><i class="icon-map-o"></i> Lembang, Jawa Barat</span>
-                      <span class="ml-auto"><a href="#">Book</a></span>
+                      <span class="ml-auto"><a href="MT-hotel.php">Book</a></span>
                     </p>
                   </div>
                 </div>
@@ -252,7 +252,7 @@
                   <div class="text p-3">
                     <div class="d-flex">
                       <div class="one">
-                        <h3><a href="#">Novena Hotel Lembang</a></h3>
+                        <h3><a href="MT-hotel.php">Novena Hotel Lembang</a></h3>
                         <p class="rate">
                           <i class="icon-star"></i>
                           <i class="icon-star"></i>
@@ -268,7 +268,7 @@
                     <hr>
                     <p class="bottom-area d-flex">
                       <span><i class="icon-map-o"></i> Lembang. Jawa Barat</span>
-                      <span class="ml-auto"><a href="#">Book</a></span>
+                      <span class="ml-auto"><a href="MT-hotel.php">Book</a></span>
                     </p>
                   </div>
                 </div>
@@ -276,7 +276,7 @@
 
               <div class="col-sm col-md-6 col-lg-4 ftco-animate">
                 <div class="destination">
-                  <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel/grand_inna/inna.jpg);">
+                  <a href="MT-hotel.php" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel/grand_inna/inna.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                       <span class="icon-link"></span>
                     </div>
@@ -300,7 +300,7 @@
                     <hr>
                     <p class="bottom-area d-flex">
                       <span><i class="icon-map-o"></i> Yogyakarta</span>
-                      <span class="ml-auto"><a href="#">Book</a></span>
+                      <span class="ml-auto"><a href="MT-hotel.php">Book</a></span>
                     </p>
                   </div>
                 </div>
@@ -311,10 +311,10 @@
               <div class="col text-center">
                 <div class="block-27">
                   <ul>
-                    <li><a href="hotel3.php">&lt;</a></li>
-                    <li><a href="hotel.html">1</a></li>
+                    <li><a href="hotel.php">&lt;</a></li>
+                    <li><a href="hotel.php">1</a></li>
                     <li class="active"><a href="hotel2.php">2</a></li>
-                    <li><a href="hotel3.php">3</a></li> 
+                    <li><a href="MT-hotel.php">3</a></li>
                     <li><a href="hotel.php">&gt;</a></li>
                   </ul>
                 </div>
@@ -324,7 +324,7 @@
           </div>
           </div>
           </section> <!-- .section -->
- 
+
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
@@ -339,7 +339,7 @@
                 <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
-          </div> 
+          </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Have a Questions?</h2>

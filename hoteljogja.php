@@ -102,7 +102,7 @@
                     <hr>
                     <p class="bottom-area d-flex">
                       <span><i class="icon-map-o"></i> Pakualaman, Yogyakarta </span>
-                      <span class="ml-auto"><a href="#">Book</a></span>
+                      <span class="ml-auto"><a href="hotel-jambuluwuk.php">Book</a></span>
                     </p>
                   </div>
                 </div>

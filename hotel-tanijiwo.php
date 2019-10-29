@@ -81,7 +81,7 @@
 	                  </div>
 		              </div>
 		              <div class="form-group">
-		               <a href="hotel.html"input type="submit" class="btn btn-primary py-3 px-5">Search</a>
+		               <a href="yogyakarta.php"input type="submit" class="btn btn-primary py-3 px-5">Search</a>
 		              </div>
 		            </div>
 	            </form>
@@ -147,7 +147,7 @@
           			<div class="row">
           				<div class="col-md-4">
 				    				<div class="destination">
-				    					<a href="hotel-tanijiwo.html" class="img img-2" style="background-image: url(images/hotel/tani_jiwo/tanijiwo2.jpg);"></a>
+				    					<a href="#" class="img img-2" style="background-image: url(images/hotel/tani_jiwo/tanijiwo2.jpg);"></a>
 				    					<div class="text p-3 ">
 				    						<div class="d-flex">
 				    							<div class="one">
@@ -161,14 +161,14 @@
 				    						<p>Info</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
-				    							<span class="ml-auto"><a href="Book2.html">Book Now</a></span>
+				    							<span class="ml-auto"><a href="Book2.php">Book Now</a></span>
 				    						</p>
 				    					</div>
 				    				</div>
 				    			</div>
 				    			<div class="col-md-4">
 				    				<div class="destination">
-				    					<a href="hotel-single.html" class="img img-2" style="background-image: url(images/hotel/tani_jiwo/tanijiwo3.jpg);"></a>
+				    					<a href="#" class="img img-2" style="background-image: url(images/hotel/tani_jiwo/tanijiwo3.jpg);"></a>
 				    					<div class="text p-3">
 				    						<div class="d-flex">
 				    							<div class="one">
@@ -181,18 +181,18 @@
 				    						<p>Info</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
-				    							<span class="ml-auto"><a href="Book-Bunk.html">Book Now</a></span>
+				    							<span class="ml-auto"><a href="Book-Bunk.php">Book Now</a></span>
 				    						</p>
 				    					</div>
 				    				</div>
 				    			</div>
 				    			<div class="col-md-4">
 				    				<div class="destination">
-				    					<a href="hotel-single.html" class="img img-2" style="background-image: url(images/hotel/tani_jiwo/tanijiwo4.jpg);"></a>
+				    					<a href="#" class="img img-2" style="background-image: url(images/hotel/tani_jiwo/tanijiwo4.jpg);"></a>
 				    					<div class="text p-3">
 				    						<div class="d-flex">
 				    							<div class="one">
-						    						<h3><a href="hotel-single.html">Double Bed</a></h3>
+						    						<h3><a href="#">Double Bed</a></h3>
 					    						</div>
 					    						<div class="two">
 					    							<span class="price per-price">IDR 400.000<br><small>/night</small></span>
@@ -201,7 +201,7 @@
 				    						<p>Infos</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
-				    							<span class="ml-auto"><a href="Book2.html">Book Now</a></span>
+				    							<span class="ml-auto"><a href="Book2.php">Book Now</a></span>
 				    						</p>
 				    					</div>
 				    				</div>
@@ -215,11 +215,11 @@
           			<div class="row">
           				<div class="col-md-4">
 				    				<div class="destination">
-				    					<a href="hotel-single.html" class="img img-2" style="background-image: url(images/hotel/jiwa_jawa/jiwajawa.jpg);"></a>
+				    					<a href="hotel-jiwajawa.php" class="img img-2" style="background-image: url(images/hotel/jiwa_jawa/jiwajawa.jpg);"></a>
 				    					<div class="text p-3">
 				    						<div class="d-flex">
 				    							<div class="one">
-						    						<h3><a href="hotel-single.html">Jiwa Jawa Resort</a></h3>
+						    						<h3><a href="#">Jiwa Jawa Resort</a></h3>
 						    						<p class="rate">
 						    							<i class="icon-star"></i>
 						    							<i class="icon-star"></i>
@@ -234,7 +234,7 @@
 				    						<hr>
 				    						<p class="bottom-area d-flex">
 				    							<span><i class="icon-map-o"></i> Probolinggo, Jawa Timur</span>
-				    							<span class="ml-auto"><a href="#">Book</a></span>
+				    							<span class="ml-auto"><a href="hotel-jiwajawa.php">Book</a></span>
 				    						</p>
 				    					</div>
 				    				</div>
@@ -245,7 +245,7 @@
 				    					<div class="text p-3">
 				    						<div class="d-flex">
 				    							<div class="one">
-						    						<h3><a href="hotel-single.html">Bromo Terrace</a></h3>
+						    						<h3><a href="#">Bromo Terrace</a></h3>
                             <p class="rate">
 						    							<i class="icon-star"></i>
 						    							<i class="icon-star"></i>

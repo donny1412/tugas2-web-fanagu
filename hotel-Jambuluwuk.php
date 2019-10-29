@@ -133,7 +133,7 @@
 					    							<span class="price per-price">IDR 552.000<br><small>/night</small></span>
 				    							</div>
 				    						</div>
-				    						<p>Far far away, behind the word mountains, far from the countries</p>
+				    						<p>info</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
 				    							<span><i class="icon-map-o"></i> Jambuluwuk</span> 
@@ -162,7 +162,7 @@
 					    							<span class="price per-price">IDR 644.000<br><small>/night</small></span>
 				    							</div>
 				    						</div>
-				    						<p>Far far away, behind the word mountains, far from the countries</p>
+				    						<p>info</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
 				    							<span><i class="icon-map-o"></i> Jambuluwuk</span> 
@@ -191,7 +191,7 @@
 					    							<span class="price per-price">IDR 567.000<br><small>/night</small></span>
 				    							</div>
 				    						</div>
-				    						<p>Far far away, behind the word mountains, far from the countries</p>
+				    						<p>info</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
 				    							<span><i class="icon-map-o"></i> Jambuluwuk</span> 
@@ -399,15 +399,7 @@
 	            </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>
+        </div> 
       </div>
     </footer>
     

@@ -148,7 +148,7 @@
 		    						<hr>
 		    						<p class="bottom-area d-flex">
 		    							<span><i class="icon-map-o"></i> Kulonprogo, Yogyakarta</span>
-		    							<span class="ml-auto"><a href="places-kali_biru.php">Discover</a></span>
+		    							<span class="ml-auto"><a href="kalibiru.php">Discover</a></span>
 		    						</p>
 		    					</div>
 		    				</div>

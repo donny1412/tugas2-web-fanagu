@@ -82,11 +82,11 @@
 		                <div class="select-wrap one-third">
 	                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
 	                    <select name="" id="" class="form-control" placeholder="Keyword search">
-	                      <option value="">Pilih Lokasi</option>
-	                      <option value="">Bali</option>
-	                      <option value="">Bandung</option>
-	                      <option value="">Malang</option>
-	                      <option value="">Yogyakarta</option>
+	                      <option value="1">Pilih Lokasi</option>
+	                      <option value="2">Bali</option>
+	                      <option value="3">Bandung</option>
+	                      <option value="4">Malang</option>
+	                      <option value="5">Yogyakarta</option>
 	                    </select>
 	                  </div>
 		              </div>
@@ -336,9 +336,9 @@
                     <li><a href="places.php">1</a></li>
                     <li><a href="places2.php">2</a></li>
                     <li class="active"><span>3</span></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">&gt;</a></li>
+                    <li><a href="places4.php">4</a></li>
+                    <li><a href="MT-places.php">5</a></li>
+                    <li><a href="places4.php">&gt;</a></li>
 		              </ul>
 		            </div>
 		          </div>

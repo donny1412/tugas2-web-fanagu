@@ -60,7 +60,7 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-9 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Destinasi</span></p>
+            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.php">Home</a></span> <span>Destinasi</span></p>
             <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Destinasi Wisata</h1>
           </div>
         </div>
@@ -78,7 +78,7 @@
           <div class="col-md-12 tab-wrap"> 
             <div class="tab-content p-4 px-5" id="v-pills-tabContent"> 
               <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
-                <form action="malang.php" class="search-destination">
+                <form action="bali.php" class="search-destination">
                   <div class="row"> 
                     <div class="col-md align-items-end">
                       <div class="form-group">

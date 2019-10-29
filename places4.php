@@ -31,17 +31,24 @@
 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Mlaku.id</a>
+	      <a class="navbar-brand" href="index.php">Mlaku.id</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item active"><a href="places.html" class="nav-link">Destinasi Wisata</a></li>
-	          <li class="nav-item"><a href="hotel.html" class="nav-link">Hotel</a></li>
-	          <li class="nav-item"><a href="login.php" class="nav-link">Log Out</a></li>
+	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+	          <li class="nav-item active"><a href="places.php" class="nav-link">Destinasi Wisata</a></li>
+	          <li class="nav-item"><a href="hotel.php" class="nav-link">Hotel</a></li>
+	          <li class="nav-item"><a href="Tour Guide.php" class="nav-link">Tour Guide</a></li> 
+            <?php
+              session_start();
+              // Check if the user is already logged in, if yes then redirect him to welcome page
+              if (isset($_SESSION["status"]) && $_SESSION["status"] =='login') {
+                  echo  "<li class='nav-item'><a href='logout.php' class='nav-link'>Log out</a></li>";
+              } else echo  "<li class='nav-item'><a href='login.php' class='nav-link'>Login</a></li>";
+            ?> 
 	        </ul>
 	      </div>
 	    </div>

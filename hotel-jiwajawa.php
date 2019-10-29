@@ -81,7 +81,7 @@
 	                  </div>
 		              </div>
 		              <div class="form-group">
-		               <a href="yogyakarta.php"input type="submit" class="btn btn-primary py-3 px-5">Search</a>
+		               <a href="hoteljogja.php"input type="submit" class="btn btn-primary py-3 px-5">Search</a>
 		              </div>
 		            </div>
 	            </form>

@@ -45,11 +45,11 @@
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+	        <ul class="navbar-nav ml-auto">	          
+	    	  <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="places.php" class="nav-link">Destinasi Wisata</a></li>
 	          <li class="nav-item active"><a href="hotel.php" class="nav-link">Hotel</a></li>
-	                      <li class="nav-item"><a href="Tour Guide.php" class="nav-link">Tour Guide</a></li> 
+              <li class="nav-item"><a href="Tour Guide.php" class="nav-link">Tour Guide</a></li> 
             <?php
               session_start();
               // Check if the user is already logged in, if yes then redirect him to welcome page
@@ -75,12 +75,12 @@
       </div>
     </div>
 		
-		<section class="ftco-section ftco-degree-bg">
+
+		<section class="ftco-section">
       <div class="container">
-        <div class="row"> 
-        		<div class="sidebar-wrap ftco-animate">
-          </div>
-		
+        <div class="row">
+        	<div class="col-lg-3 sidebar order-md-last ftco-animate"> 
+          </div><!-- END-->
           <div class="col-lg-9">
           	<div class="row">
           		<div class="col-md-12 ftco-animate">
@@ -109,32 +109,7 @@
     							<i class="icon-star"></i>
     							10 Rating</span>
     						</p>
-    						<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-    						<div class="d-md-flex mt-5 mb-5">
-    							<ul>
-	    							<li>The Big Oxmox advised her not to do so</li>
-	    							<li>When she reached the first hills of the Italic Mountains</li>
-	    							<li>She had a last view back on the skyline of her hometown </li>
-	    							<li>Bookmarksgrove, the headline of Alphabet </li>
-	    						</ul>
-	    						<ul class="ml-md-5">
-	    							<li>Question ran over her cheek, then she continued</li>
-	    							<li>Pityful a rethoric question ran</li>
-	    							<li>Mountains, she had a last view back on the skyline</li>
-	    							<li>Headline of Alphabet Village and the subline</li>
-	    						</ul>
-    						</div>
-    						<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-          		</div>
-          		<div class="col-md-12 hotel-single ftco-animate mb-5 mt-4">
-          			<h4 class="mb-4">Take A Tour</h4>
-          			<div class="block-16">
-		              <figure>
-		                <img src="images/hotel-6.jpg" alt="Image placeholder" class="img-fluid">
-		                <a href="https://vimeo.com/45830194" class="play-button popup-vimeo"><span class="icon-play"></span></a>
-		              </figure>
-		            </div>
-          		</div>
+    						<p>Description</p> 
           		<div class="col-md-12 hotel-single ftco-animate mb-5 mt-4">
           			<h4 class="mb-4">Our Rooms</h4>
           			<div class="row">
@@ -282,52 +257,14 @@
 			              </div>
 				            <div class="col-md-12">
 				              <div class="form-group">
-				                <input type="submit" href="hoteljogja.html" value="Check Availability" class="btn btn-primary py-3">
+				                <input type="submit" href="hoteljogja.php" value="Check Availability" class="btn btn-primary py-3">
 				              </div>
 			              </div>
 		              </div>
 		          	</form>
 		            </div>
           		</div>
-          		<div class="col-md-12 hotel-single ftco-animate mb-5 mt-4">
-          			<h4 class="mb-4">Review &amp; Ratings</h4>
-          			<div class="row">
-          				<div class="col-md-6">
-          					<form method="post" class="star-rating">
-										  <div class="form-check">
-												<input type="checkbox" class="form-check-input" id="exampleCheck1">
-												<label class="form-check-label" for="exampleCheck1">
-													<p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i> 100 Ratings</span></p>
-												</label>
-										  </div>
-										  <div class="form-check">
-									      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-									      <label class="form-check-label" for="exampleCheck1">
-									    	   <p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i> 30 Ratings</span></p>
-									      </label>
-										  </div>
-										  <div class="form-check">
-									      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-									      <label class="form-check-label" for="exampleCheck1">
-									      	<p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i> 5 Ratings</span></p>
-									     </label>
-										  </div>
-										  <div class="form-check">
-										    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-									      <label class="form-check-label" for="exampleCheck1">
-									      	<p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i> 0 Ratings</span></p>
-									      </label>
-										  </div>
-										  <div class="form-check">
-									      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-									      <label class="form-check-label" for="exampleCheck1">
-									      	<p class="rate"><span><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i> 0 Ratings</span></p>
-										    </label>
-										  </div>
-										</form>
-          				</div>
-          			</div>
-          		</div>
+  
           		<div class="col-md-12 hotel-single ftco-animate mb-5 mt-5">
           			<h4 class="mb-4">Related Hotels</h4>
           			<div class="row">
@@ -434,30 +371,7 @@
           </div> <!-- .col-md-8 -->
         </div>
       </div>
-    </section> <!-- .section -->
-
-		<section class="ftco-section-parallax">
-      <div class="parallax-img d-flex align-items-center">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-              <h2>Subcribe to our Newsletter</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-              <div class="row d-flex justify-content-center mt-5">
-                <div class="col-md-8">
-                  <form action="#" class="subscribe-form">
-                    <div class="form-group d-flex">
-                      <input type="text" class="form-control" placeholder="Enter email address">
-                      <input type="submit" value="Subscribe" class="submit px-3">
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </section> <!-- .section --> 
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
@@ -472,42 +386,15 @@
                 <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Information</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">About Us</a></li>
-                <li><a href="#" class="py-2 d-block">Online enquiry</a></li>
-                <li><a href="#" class="py-2 d-block">Call Us</a></li>
-                <li><a href="#" class="py-2 d-block">General enquiries</a></li>
-                <li><a href="#" class="py-2 d-block">Booking Conditions</a></li>
-                <li><a href="#" class="py-2 d-block">Privacy and Policy</a></li>
-                <li><a href="#" class="py-2 d-block">Refund policy</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Experience</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Beach</a></li>
-                <li><a href="#" class="py-2 d-block">Adventure</a></li>
-                <li><a href="#" class="py-2 d-block">Wildlife</a></li>
-                <li><a href="#" class="py-2 d-block">Honeymoon</a></li>
-                <li><a href="#" class="py-2 d-block">Nature</a></li>
-                <li><a href="#" class="py-2 d-block">Party</a></li>
-              </ul>
-            </div>
-          </div>
+          </div> 
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Surabaya, Indonesia</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">0355 332750</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">mlaku@gmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>

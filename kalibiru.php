@@ -41,14 +41,14 @@
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item active"><a href="places.php" class="nav-link">Destinasi Wisata</a></li>
 	          <li class="nav-item"><a href="hotel.php" class="nav-link">Hotel</a></li>
-            <li class="nav-item"><a href="Tour Guide.php" class="nav-link">Tour Guide</a></li> 
+            <li class="nav-item"><a href="Tour Guide.php" class="nav-link">Tour Guide</a></li>
             <?php
               session_start();
               // Check if the user is already logged in, if yes then redirect him to welcome page
               if (isset($_SESSION["status"]) && $_SESSION["status"] =='login') {
                   echo  "<li class='nav-item'><a href='logout.php' class='nav-link'>Log out</a></li>";
               } else echo  "<li class='nav-item'><a href='login.php' class='nav-link'>Login</a></li>";
-            ?> 
+            ?>
 	        </ul>
 	      </div>
 	    </div>
@@ -121,12 +121,27 @@
     							<i class="icon-star"></i>
     							<i class="icon-star"></i>
     							10 Rating</span>
-    						</p>
-    						<p><h3>Kalibiru</h3></p>
-    						<p>Tempat ini banyak dikunjungi karena pemandangan alamnya yang indah, dengan berbagai spot foto yang unik</p> 
-                <p>HTM : 10.000/orang</p>
-          		</div>
-	           </div>
+                </p>
+                <p><h3>Title</h3></p>
+                <p>Info</p>
+                <div class="d-md-flex mt-5 mb-5">
+                  <ul>
+                    <li>Fasilitas</li>
+                    <li>1</li>
+                    <li>2 </li>
+                    <li>3</li>
+                  </ul>
+                  <ul class="ml-md-5">
+                    <li>Fasilitas2</li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                  </ul>
+                </div>
+                <p><h3>Title2</h3></p>
+                <p>info2</p>
+              </div>
+             </div>
 
           		<div class="col-md-12 hotel-single ftco-animate mb-5 mt-5">
           			<h4 class="mb-4">Related Destinations</h4>
@@ -148,7 +163,7 @@
 						    						</p>
 					    						</div>
 				    						</div>
-				    						<p>HTM : 25.000/orang</p>
+				    						<p>IDR 25.000/person</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
 				    							<span><i class="icon-map-o"></i> Malang</span>
@@ -174,7 +189,7 @@
 						    						</p>
 					    						</div>
 				    						</div>
-				    						<p>HTM : 20.000/orang</p>
+				    						<p>IDR 20.000/person</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
 				    							<span><i class="icon-map-o"></i> Lembang</span>
@@ -200,7 +215,7 @@
 						    						</p>
 					    						</div>
 				    						</div>
-				    						<p>HTM : 10.000/orang</p>
+				    						<p>IDR 10.000/person</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
 				    							<span><i class="icon-map-o"></i> Simalungun</span>
@@ -216,7 +231,7 @@
           </div> <!-- .col-md-8 -->
         </div>
       </div>
-    </section> <!-- .section --> 
+    </section> <!-- .section -->
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">

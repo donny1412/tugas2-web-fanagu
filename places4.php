@@ -337,8 +337,8 @@
                     <li><a href="places2.php">2</a></li>
                     <li><a href="places3.php">3</a></li>
                     <li class="active"><span>4</span></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="places5.php">&gt;</a></li>
+                    <li><a href="MT-places.php">5</a></li>
+                    <li><a href="MT-places.php">&gt;</a></li>
 		              </ul>
 		            </div>
 		          </div>

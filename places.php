@@ -41,14 +41,14 @@
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item active"><a href="places.php" class="nav-link">Destinasi Wisata</a></li>
 	          <li class="nav-item"><a href="hotel.php" class="nav-link">Hotel</a></li>
-	          <li class="nav-item"><a href="Tour Guide.php" class="nav-link">Tour Guide</a></li> 
+	          <li class="nav-item"><a href="Tour Guide.php" class="nav-link">Tour Guide</a></li>
             <?php
               session_start();
               // Check if the user is already logged in, if yes then redirect him to welcome page
               if (isset($_SESSION["status"]) && $_SESSION["status"] =='login') {
                   echo  "<li class='nav-item'><a href='logout.php' class='nav-link'>Log out</a></li>";
               } else echo  "<li class='nav-item'><a href='login.php' class='nav-link'>Login</a></li>";
-            ?> 
+            ?>
 	        </ul>
 	      </div>
 	    </div>
@@ -66,20 +66,20 @@
         </div>
       </div>
     </div>
-	  
+
    <section class="ftco-section justify-content-end ftco-search">
       <div class="container-wrap ml-auto">
         <div class="row no-gutters">
           <div class="col-md-12 nav-link-wrap">
             <div class="nav nav-pills justify-content-center text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Search Destinasi Wisata</a> 
+              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Search Destinasi Wisata</a>
             </div>
           </div>
-          <div class="col-md-12 tab-wrap"> 
-            <div class="tab-content p-4 px-5" id="v-pills-tabContent"> 
+          <div class="col-md-12 tab-wrap">
+            <div class="tab-content p-4 px-5" id="v-pills-tabContent">
               <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
                 <form action="bali.php" class="search-destination">
-                  <div class="row"> 
+                  <div class="row">
                     <div class="col-md align-items-end">
                       <div class="form-group">
                         <label for="#">Where</label>
@@ -103,7 +103,7 @@
           </div>
         </div>
       </div>
-    </section>	  
+    </section>
 
     <section class="ftco-section">
       <div class="container">
@@ -180,7 +180,7 @@
 		    						<hr>
 		    						<p class="bottom-area d-flex">
 		    							<span><i class="icon-map-o"></i> Gunung Kidul, Yogyakarta</span>
-		    							<span class="ml-auto"><a href="#">Discover</a></span>
+		    							<span class="ml-auto"><a href="MT-places.php">Discover</a></span>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -212,7 +212,7 @@
 		    						<hr>
 		    						<p class="bottom-area d-flex">
 		    							<span><i class="icon-map-o"></i> ... , Malang</span>
-		    							<span class="ml-auto"><a href="#">Discover</a></span>
+		    							<span class="ml-auto"><a href="MT-places.php">Discover</a></span>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -244,7 +244,7 @@
 		    						<hr>
 		    						<p class="bottom-area d-flex">
 		    							<span><i class="icon-map-o"></i> Bontang</span>
-		    							<span class="ml-auto"><a href="#">Discover</a></span>
+		    							<span class="ml-auto"><a href="MT-places.php">Discover</a></span>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -277,7 +277,7 @@
 		    						<hr>
 		    						<p class="bottom-area d-flex">
 		    							<span><i class="icon-map-o"></i> Lembang. Bandung</span>
-		    							<span class="ml-auto"><a href="#">Discover</a></span>
+		    							<span class="ml-auto"><a href="MT-places.php">Discover</a></span>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -309,7 +309,7 @@
 		    						<hr>
 		    						<p class="bottom-area d-flex">
 		    							<span><i class="icon-map-o"></i> Simalungun, Sumatera Utara</span>
-		    							<span class="ml-auto"><a href="#">Discover</a></span>
+		    							<span class="ml-auto"><a href="MT-places.php">Discover</a></span>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -333,7 +333,7 @@
           </div> <!-- .col-md-8 -->
         </div>
       </div>
-    </section> <!-- .section --> 
+    </section> <!-- .section -->
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
@@ -348,7 +348,7 @@
                 <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
-          </div> 
+          </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Have a Questions?</h2>

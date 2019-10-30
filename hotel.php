@@ -212,7 +212,7 @@
 
               <div class="col-sm col-md-6 col-lg-4 ftco-animate">
                 <div class="destination">
-                  <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel/intercontinental/intercontinental.jpg);">
+                  <a href="MT-hotel.php" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel/intercontinental/intercontinental.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                       <span class="icon-link"></span>
                     </div>
@@ -244,7 +244,7 @@
 
               <div class="col-sm col-md-6 col-lg-4 ftco-animate">
                 <div class="destination">
-                  <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel/novena_lembang/novena.jpg);">
+                  <a href="MT-hotel.php" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel/novena_lembang/novena.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                       <span class="icon-link"></span>
                     </div>

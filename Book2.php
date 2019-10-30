@@ -126,7 +126,7 @@
 			              </div>
 				            <div class="col-md-12">
 				              <div class="form-group">
-				                  <h3><a href="hotel-tanijiwo.html" input type="submit" class="btn btn-primary py-3">Book And Checkout!</a></h3>
+				                  <h3><a href="MT-hotel.php" input type="submit" class="btn btn-primary py-3">Book And Checkout!</a></h3>
 				              </div>
 			              </div>
 		              </div>

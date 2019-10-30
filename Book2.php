@@ -31,18 +31,18 @@
 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Mlaku.id</a>
+	      <a class="navbar-brand" href="index.php">Mlaku.id</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="places.html" class="nav-link">Destinasi Wisata</a></li>
-	          <li class="nav-item active"><a href="hotel.html" class="nav-link">Hotel</a></li>
-	          <li class="nav-item"><a href="Tour Guide.html" class="nav-link">Tour Guide</a></li>
-	          <li class="nav-item"><a href="transportasi.html" class="nav-link">Transportasi</a></li>
+	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="places.php" class="nav-link">Destinasi Wisata</a></li>
+	          <li class="nav-item active"><a href="hotel.php" class="nav-link">Hotel</a></li>
+	          <li class="nav-item"><a href="Tour Guide.php" class="nav-link">Tour Guide</a></li>
+	          <li class="nav-item"><a href="transportasi.php" class="nav-link">Transportasi</a></li>
 	          <li class="nav-item"><a href="login.php" class="nav-link">Log Out</a></li>
 	        </ul>
 	      </div>
@@ -55,7 +55,7 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-9 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Hotel</span></p>
+            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.php">Home</a></span> <span>Hotel</span></p>
             <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Hotels</h1>
           </div>
         </div>

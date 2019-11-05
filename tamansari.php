@@ -111,7 +111,7 @@
           			<div class="block-16">
 		              <figure>
 		                <img src="images/hotel/tani_jiwo/tanijiwo.jpg" alt="Image placeholder" class="img-fluid">
-		                <a href="https://vimeo.com/45830194" class="play-button popup-vimeo"><span class="icon-play"></span></a>
+		                <a href="https://www.youtube.com/watch?v=rbwrN6mzc-I&pbjreload=10" class="play-button popup-vimeo"><span class="icon-play"></span></a>
 		              </figure>
 		            </div>
           		</div> 

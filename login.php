@@ -57,9 +57,9 @@ if($cek > 0){
 		
 		<p class="tulisan_login">Mlaku.id</p>
 		<?php if ($msg != "") { ?> <div class="alert alert-warning" role="alert"><?php echo $msg;?>
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <!--  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                    </button>
+                    </button> -->
                 </div><?php }?>
 		<form method="POST" action="login.php">
 			<label>Email</label>

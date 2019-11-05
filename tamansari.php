@@ -106,15 +106,7 @@
 
     						<p>Buka/Tutup : 08.00 - 17.00 WIB</p>
           		</div>
-          		<div class="col-md-12 hotel-single ftco-animate mb-5 mt-4">
-          			<h4 class="mb-4">Take A Tour</h4>
-          			<div class="block-16">
-		              <figure>
-		                <img src="images/tamansari.jpg" alt="Image placeholder" class="img-fluid">
-		                <a href="https://www.youtube.com/watch?v=rbwrN6mzc-I&pbjreload=10" class="play-button popup-vimeo"><span class="icon-play"></span></a>
-		              </figure>
-		            </div>
-          		</div> 
+          		 
           		<div class="col-md-12 hotel-single ftco-animate mb-5 mt-5">
           			<h4 class="mb-4">Related Destination</h4>
           			<div class="row">
